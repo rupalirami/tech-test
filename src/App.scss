@@ -1,11 +1,17 @@
+@use "./assets/sass/_variables.scss" as *;
+
 .app {
   text-align: center;
 }
+// @media  {
+
+// }
 
 .footer {
   min-height: 50vh;
   font-size: calc(10px + 2vmin);
-  color: #2D3436;
+  color: $color-black;
   text-align: justify;
-  margin: 10px;
-}/*# sourceMappingURL=App.css.map */
+  margin: 10px;;
+}
+
